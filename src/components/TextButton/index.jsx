@@ -1,5 +1,4 @@
-import { View, Text } from 'react-native'
-import MyButton from '../MyButton'
+import { Text } from 'react-native'
 
 const TextButton = ({title}) => {
   return (
@@ -7,4 +6,4 @@ const TextButton = ({title}) => {
   );
 }
 
-export default TextButton
+export default TextButton;

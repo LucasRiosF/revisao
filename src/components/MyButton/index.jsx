@@ -1,8 +1,8 @@
-import { TouchableOpacity } from 'react-native'
-import { useNavigation } from '@react-navigation/native'
+import { TouchableOpacity } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 import TextButton from '../TextButton';
 
-const MyButton = ({screen, name}) => {
+const MyButton = ({ screen, name }) => {
     const navigation = useNavigation();
   return (
   <TouchableOpacity onPress={() => navigation.navigate({screen})}>
@@ -11,4 +11,4 @@ const MyButton = ({screen, name}) => {
   );
 };
 
-export default MyButton
+export default MyButton;
